@@ -14,7 +14,7 @@ const Footer = () => {
               alt=""
               srcset=""
             />
-            <p className="w-full md:w-2/3 leading-6 text-pcolor">
+            <p className="w-full md:w-2/3 leading-6 text-pcolor font-outfit">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -23,8 +23,10 @@ const Footer = () => {
           </div>
           {/* middle sight */}
           <div>
-            <p className="font-semibold mb-4 text-lg text-white">COMPANY</p>
-            <ul className="flex flex-col gap-1.5 text-pcolor">
+            <p className="font-semibold mb-4 text-lg font-row text-white">
+              COMPANY
+            </p>
+            <ul className="flex flex-col gap-1.5 text-pcolor font-outfit">
               <li>
                 <Link to={"/"}>Home</Link>
               </li>
@@ -44,10 +46,10 @@ const Footer = () => {
           </div>
           {/* right sight */}
           <div>
-            <p className="text-white font-semibold mb-4 text-lg">
+            <p className="text-white font-row font-semibold mb-4 text-lg">
               GET IN TOUCH
             </p>
-            <ul className="flex flex-col gap-1.5 text-pcolor">
+            <ul className="flex flex-col gap-1.5 text-pcolor font-outfit">
               <li>01743860970</li>
               <li>tanvir620032gmail.com</li>
             </ul>
@@ -56,7 +58,7 @@ const Footer = () => {
         {/* bottom part */}
         <div className="mx-4 sm:mx-[8%]">
           <hr className="text-pcolor border border-1" />
-          <p className="text-center text-sm font-normal text-pcolor py-4 ">
+          <p className="text-center text-sm font-normal text-pcolor py-4 font-outfit">
             Copyright © 2024 Tanvir Siam - All Right Reserved.
           </p>
         </div>

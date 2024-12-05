@@ -6,11 +6,12 @@ import Top_Category from "../component/Top_Category";
 import Left_right from "../component/Left_right";
 import Images from "../component/Images";
 import Testimonials from "../component/Testimonials";
+import Banner from "../component/Banner";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <Banner />
       <Branding />
       <Course />
       <Top_Category />

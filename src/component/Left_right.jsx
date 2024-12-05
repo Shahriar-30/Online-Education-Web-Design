@@ -3,7 +3,7 @@ import React from "react";
 const Left_right = () => {
   return (
     <div className="mx-4 sm:mx-[8%]">
-      <div className="flex flex-col md:flex-row items-center justify-between py-[80px] relative ">
+      <div className="flex flex-col md:flex-row items-center gap-28 py-[80px] relative ">
         <div className="w-[650px]">
           <img src="./Group 1000014993.png" alt="" />
         </div>
@@ -15,7 +15,7 @@ const Left_right = () => {
               relevance drives out resistance.
             </span>
           </h4>
-          <p className="w-[750px] font-outfit my-3 ">
+          <p className="w-[680px] font-outfit my-3 text-p ">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -26,7 +26,7 @@ const Left_right = () => {
           </button>
         </div>
         <img
-          className="absolute bottom-[80px] right-4"
+          className="absolute bottom-[98px] right-16"
           src="./Polygon 7.png"
           alt=""
         />
