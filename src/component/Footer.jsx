@@ -50,8 +50,8 @@ const Footer = () => {
               GET IN TOUCH
             </p>
             <ul className="flex flex-col gap-1.5 text-pcolor font-outfit">
-              <li>01743860970</li>
-              <li>tanvir620032gmail.com</li>
+              <li>01793338464</li>
+              <li>alsiphat30@gmail.com</li>
             </ul>
           </div>
         </div>
